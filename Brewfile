@@ -25,6 +25,7 @@ brew 'npm'
 cask 'docker'
 cask 'spectacle'
 cask 'zoom'
+cask 'google-cloud-sdk'
 
 # Terminals
 cask 'iterm2'
