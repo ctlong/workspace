@@ -23,6 +23,7 @@ cask 'docker'
 cask 'spectacle'
 cask 'zoom'
 cask 'google-cloud-sdk'
+cask 'stats'
 
 # Terminals
 cask 'iterm2'
