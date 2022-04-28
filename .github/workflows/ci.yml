@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Try install
-        run: ./install.sh
+        run: ./install-headless.sh
