@@ -32,7 +32,5 @@ cask 'google-chrome'
 cask 'firefox'
 
 # Editors
-brew 'neovim'
-brew 'vim'
 cask 'visual-studio-code'
 cask 'macdown'
