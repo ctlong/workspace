@@ -12,10 +12,13 @@ ZSH_DISABLE_COMPFIX=true
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  asdf
   direnv
   fd
   git
+  ripgrep
   z
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -27,9 +30,9 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vi'
+  export EDITOR='vim'
 else
-  export EDITOR='vi'
+  export EDITOR='nvim'
 fi
 
 # Compilation flags
@@ -45,4 +48,5 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 # For a full list of active aliases, run `alias`.
 alias zshconfig="vi ~/.zshrc"
 alias ohmyzsh="vi ~/.oh-my-zsh"
-alias vim="vi"
+alias vi="nvim"
+alias vim="nvim"

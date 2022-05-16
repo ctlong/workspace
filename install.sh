@@ -15,6 +15,10 @@ source ${THIS_DIR}/scripts/homebrew.sh
 source ${THIS_DIR}/scripts/zsh.sh
 
 echo
+echo "Install zsh-autosuggestions"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+echo
 echo "Open Spectacle"
 open /Applications/Spectacle.app
 
