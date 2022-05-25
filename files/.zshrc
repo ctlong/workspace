@@ -25,8 +25,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# GOPATH
+export GOPATH="${HOME}/go"
+
 # Adding Homebrew's sbin to PATH
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:${PATH}:${GOPATH}/bin"
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
