@@ -42,8 +42,8 @@ fi
 export ARCHFLAGS="-arch x86_64"
 
 # google-cloud-sdk
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+source "/usr/local/share/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/share/google-cloud-sdk/completion.zsh.inc"
 
 # asdf
 . $(brew --prefix asdf)/libexec/asdf.sh
